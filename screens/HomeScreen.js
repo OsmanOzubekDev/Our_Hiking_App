@@ -11,7 +11,7 @@ const HomeScreen = ({ navigation }) => {
 
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('CheckInScreen')}
+        onPress={() => navigation.navigate('CheckIn')}
       >
         <Text style={styles.buttonText}>Check In</Text>
       </TouchableOpacity>
